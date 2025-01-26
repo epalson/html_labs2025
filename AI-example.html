@@ -3,20 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic HTML5 Page for OIM3690</title>
+    <title>My First HTML Page</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
         nav ul {
             list-style-type: none;
             padding: 0;
             margin: 0;
             display: flex;
             background-color: #333;
-            justify-content: space-around;
         }
         nav ul li {
             margin: 0;
@@ -29,33 +23,9 @@
         nav ul li:hover {
             background-color: #111;
         }
-        .right-aligned {
-            float: right;
-            margin: 0 0 10px 10px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        @media (max-width: 600px) {
-            nav ul {
-                flex-direction: column;
-            }
-            .right-aligned {
-                float: none;
-                display: block;
-                margin: 10px auto;
-            }
-        }
     </style>
 </head>
 <body>
-    <!-- the Nav tag is critical for this CSS-->
     <nav>
         <ul>
             <li><a href="#">Home</a></li>
@@ -64,20 +34,10 @@
         </ul>
     </nav>
 
-    <img src="https://via.placeholder.com/150" alt="Placeholder Image" class="right-aligned">
-
-        <!-- An h1 is not required but it is best practice for SEO and UX and Accessibility-->
     <h1>First Paragraph</h1>
     <p>Hello World</p>
 
     <h1>Second Paragraph</h1>
-    <p>This is the second paragraph. It contains at least three sentences. 
-        HTML is a markup language used to create web pages. I am adding more text to this. </p>
-
-<p>I also added a third paragraph of text. There are 2 sentences in this paragraph. </p>
-
-    <footer>
-        &copy; 2025 Eric Palson. All rights reserved.
-    </footer>
+    <p>This is the second paragraph. It contains at least three sentences. HTML is a markup language used to create web pages.</p>
 </body>
 </html>
